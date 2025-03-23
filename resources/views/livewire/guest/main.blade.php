@@ -15,7 +15,7 @@ new #[Layout('components.layouts.guest')] class extends Component {
 <div class="dark:bg-[#141414]">
     <div class="container mx-auto">
         <p class="py-2 dark:text-[#6E6E6E] font-mono text-xs">
-            Last login: {{ $lastLogin }}
+            Last login: {{ $lastLogin }} on ttys005
         </div>
     </div>
 </div>
