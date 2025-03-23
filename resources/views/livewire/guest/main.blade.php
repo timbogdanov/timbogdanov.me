@@ -12,9 +12,11 @@ new #[Layout('components.layouts.guest')] class extends Component {
     }
 }; ?>
 
-<div class="container mx-auto">
-    <div class="py-2 dark:bg-[#141414] dark:text-[#6E6E6E] font-mono text-xs">
-        Last login: {{ $lastLogin }}
+<div class="dark:bg-[#141414]">
+    <div class="container mx-auto">
+        <p class="py-2 dark:text-[#6E6E6E] font-mono text-xs">
+            Last login: {{ $lastLogin }}
+        </div>
     </div>
 </div>
 
