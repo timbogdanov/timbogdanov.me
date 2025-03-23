@@ -64,3 +64,8 @@ select:focus[data-flux-control] {
 /* \[:where(&)\]:size-4 {
     @apply size-4;
 } */
+
+::selection {
+    color: #121212;
+    background: #75EC21;
+}
