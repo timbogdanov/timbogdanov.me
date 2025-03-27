@@ -24,17 +24,35 @@ new #[Layout('components.layouts.guest')] class extends Component {
 
     <div class="container mx-auto my-3">
         <div class="flex items-center justify-between">
-            <div class="flex items-center">
-                <img src="/assets/logo.svg" alt="" class="mr-2">
+            <a href="{{ route('guest.main') }}" class="flex items-center hover:text-[#81796D]">
+                <x-logo class="mr-2 h-7"/>
                 <h1 class="font-mono text-sm font-bold">tim bogdanov</h1>
-            </div>
+            </a>
 
-            <div>
-                email
-                telegram
-                github
-                twitter
+            <div class="flex items-center space-x-3">
+                <livewire:icon-link
+                    href="mailto:tim.bogdanov@icloud.com"
+                    icon="email"
+                />
+
+                <livewire:icon-link
+                    href="https://t.me/timbogdanov"
+                    icon="telegram"
+                />
+
+                <livewire:icon-link
+                    href="https://github.com/timbogdanov"
+                    icon="github"
+                />
+
+                <livewire:icon-link
+                    href="https://x.com/bogdanov_tim"
+                    icon="twitter"
+                />
             </div>
         </div>
+
+        <x-title-divider title="Tech Stack"/>
+
     </div>
 </div>
