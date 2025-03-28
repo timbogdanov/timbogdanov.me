@@ -2,10 +2,9 @@ document.addEventListener('DOMContentLoaded', () => {
     // Our array of phrases
     const texts = [
         "tim bogdanov",
+        "backend developer",
         "laravel artisan",
-        "php specialist"
     ];
-
 
     // Get the text container
     const typedTextElem = document.getElementById("typed-text");
