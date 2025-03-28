@@ -23,37 +23,21 @@ new #[Layout('components.layouts.guest')] class extends Component {
     </div>
 
     <div class="container mx-auto px-5 my-3">
-        <div class="flex items-center justify-between">
+        <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
             <a href="{{ route('guest.main') }}" class="flex items-center hover:text-[#81796D]">
-{{--                <x-logo class="mr-2 h-7"/>--}}
-                <img src="/assets/logo-2.svg" class="rounded-full w-8 mr-2" alt="" >
+                <img src="/assets/logo-2.svg" class="rounded-full w-8 mr-2" alt="">
                 <h1 id="typed-text" class="font-mono text-sm font-bold"></h1>
                 <span class="cursor"></span>
             </a>
 
-
-            <div class="flex items-center space-x-3">
-                <livewire:icon-link
-                    href="mailto:tim.bogdanov@icloud.com"
-                    icon="email"
-                />
-
-                <livewire:icon-link
-                    href="https://t.me/timbogdanov"
-                    icon="telegram"
-                />
-
-                <livewire:icon-link
-                    href="https://github.com/timbogdanov"
-                    icon="github"
-                />
-
-                <livewire:icon-link
-                    href="https://x.com/bogdanov_tim"
-                    icon="twitter"
-                />
+            <div class="flex flex-wrap sm:flex-nowrap items-start sm:items-center space-x-3 sm:space-x-3 space-y-2 sm:space-y-0">
+                <livewire:icon-link href="mailto:tim.bogdanov@icloud.com" icon="email"/>
+                <livewire:icon-link href="https://t.me/timbogdanov" icon="telegram"/>
+                <livewire:icon-link href="https://github.com/timbogdanov" icon="github"/>
+                <livewire:icon-link href="https://x.com/bogdanov_tim" icon="twitter"/>
             </div>
         </div>
+
 
         <x-title-divider title="Tech Stack"/>
 
