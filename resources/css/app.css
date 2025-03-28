@@ -1,6 +1,5 @@
 @import 'tailwindcss';
 @import '../../vendor/livewire/flux/dist/flux.css';
-
 @source '../views';
 @source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
 @source '../../vendor/livewire/flux-pro/stubs/**/*.blade.php';
@@ -9,7 +8,9 @@
 @custom-variant dark (&:where(.dark, .dark *));
 
 @theme {
-    --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    --font-sans: 'Fira Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    --font-mono: 'Fira Mono', ui-monospace, monospace;
+    --font-sans-condensed: 'Fira Sans Condensed', sans-serif;
 
     --color-zinc-50: #fafafa;
     --color-zinc-100: #f5f5f5;
@@ -52,13 +53,49 @@
 }
 
 [data-flux-label] {
-    @apply  !mb-0 !leading-tight;
+    @apply !mb-0 !leading-tight;
 }
 
 input:focus[data-flux-control],
 textarea:focus[data-flux-control],
 select:focus[data-flux-control] {
     @apply outline-hidden ring-2 ring-accent ring-offset-2 ring-offset-accent-foreground;
+}
+
+@layer utilities {
+    .container {
+        @apply mx-auto px-4 w-full;
+    }
+
+    @media (min-width: 640px) {
+        .container {
+            max-width: 540px;
+        }
+    }
+
+    @media (min-width: 768px) {
+        .container {
+            max-width: 640px;
+        }
+    }
+
+    @media (min-width: 1024px) {
+        .container {
+            max-width: 768px;
+        }
+    }
+
+    @media (min-width: 1280px) {
+        .container {
+            max-width: 896px;
+        }
+    }
+
+    @media (min-width: 1536px) {
+        .container {
+            max-width: 1024px;
+        }
+    }
 }
 
 /* \[:where(&)\]:size-4 {
@@ -69,3 +106,24 @@ select:focus[data-flux-control] {
     color: #121212;
     background: #75EC21;
 }
+
+/* Typewriter cursor */
+.cursor {
+    display: inline-block;
+    width: 0.6em;
+    height: 1em;
+    margin-left: 2px;
+    background-color: currentColor; /* same color as text */
+    animation: blink 0.8s infinite;
+    vertical-align: bottom;
+}
+
+@keyframes blink {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+}
+
