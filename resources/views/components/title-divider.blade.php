@@ -3,7 +3,7 @@
     'title' => 'Divider Title'
 ])
 
-<div class="flex items-center space-x-4 my-6">
+<div class="flex items-center space-x-4 mb-2 mt-6">
     <h2 class="text-xl font-sans-condensed font-medium text-[#F2ECE2]">
         {{ $title }}
     </h2>
