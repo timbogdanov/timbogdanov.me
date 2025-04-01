@@ -43,7 +43,7 @@ new #[Layout('components.layouts.guest')] class extends Component {
 
         <div>
             <div class="flex space-x-14">
-                <div class="flex-col space-y-2">
+                <div class="flex-col space-y-3">
                     <div class="flex text-sm">
                         <x-laravel class="h-5 mr-3"/>
                         Laravel
@@ -96,7 +96,7 @@ new #[Layout('components.layouts.guest')] class extends Component {
                         <div>
                             <h3 class="text-md dark:text-[#D9D1C5]">Software Developer</h3>
 
-                            <p class="dark:text-[#81796D]">Nutri Marketplace</p>
+                            <p class="dark:text-[#81796D] text-sm">Nutri Marketplace</p>
                             <div class="flex mt-1">
                                 <a href="https://nutrimarketplace.com/" target="_blank"
                                    class="flex items-center space-x-2 px-2 py-1 rounded-sm dark:bg-[#1A1813] dark:text-[#8F877B]">
@@ -110,7 +110,7 @@ new #[Layout('components.layouts.guest')] class extends Component {
                     <div>
                         <div class="flex flex-col items-end">
                             <p class="text-md text-[#E5DDD1]">Vancouver, WA</p>
-                            <p class="text-[#81796D]">Dec 2021 - Jan 2024</p>
+                            <p class="text-[#81796D] text-sm">Dec 2021 - Jan 2024</p>
                         </div>
                     </div>
                 </div>
@@ -121,7 +121,7 @@ new #[Layout('components.layouts.guest')] class extends Component {
                         <div>
                             <h3 class="text-md dark:text-[#D9D1C5]">Software Developer</h3>
 
-                            <p class="dark:text-[#81796D]">SNAP</p>
+                            <p class="dark:text-[#81796D] text-sm">SNAP</p>
                             <div class="flex mt-1">
                                 <a href="https://snapsupplements.com/" target="_blank"
                                    class="flex items-center space-x-2 px-2 py-1 rounded-sm dark:bg-[#1A1813] dark:text-[#8F877B]">
@@ -135,7 +135,7 @@ new #[Layout('components.layouts.guest')] class extends Component {
                     <div>
                         <div class="flex flex-col items-end">
                             <p class="text-lmd text-[#E5DDD1]">Vancouver, WA</p>
-                            <p class="text-[#81796D]">Jun 2021 - Jan 2024</p>
+                            <p class="text-[#81796D] text-sm">Jun 2021 - Jan 2024</p>
                         </div>
                     </div>
                 </div>
@@ -150,7 +150,7 @@ new #[Layout('components.layouts.guest')] class extends Component {
                     <div>
                         <h3 class="text-md dark:text-[#D9D1C5]">Konnekt VPN</h3>
 
-                        <p class="dark:text-[#81796D]">Personal Virtual Private Network with over 200 users</p>
+                        <p class="dark:text-[#81796D]  text-sm">Personal Virtual Private Network with over 200 users</p>
                         <div class="flex mt-1">
                             <a href="https://t.me/MaykopConnectBot" target="_blank"
                                class="flex items-center space-x-2 px-2 py-1 rounded-sm dark:bg-[#1A1813] dark:text-[#8F877B]">
@@ -166,7 +166,7 @@ new #[Layout('components.layouts.guest')] class extends Component {
                     <div>
                         <h3 class="text-md dark:text-[#D9D1C5]">Pixie Ping</h3>
 
-                        <p class="dark:text-[#81796D]">Real-time amusement park wait times, show schedules, and dining options</p>
+                        <p class="dark:text-[#81796D]  text-sm">Real-time amusement park wait times, show schedules, and dining options</p>
                         <div class="flex mt-1">
                             <a href="https://pixieping.co/" target="_blank"
                                class="flex items-center space-x-2 px-2 py-1 rounded-sm dark:bg-[#1A1813] dark:text-[#8F877B]">
@@ -185,13 +185,13 @@ new #[Layout('components.layouts.guest')] class extends Component {
             <div class="flex justify-between">
                 <div class="flex flex-col">
                     <h3 class="text-md dark:text-[#D9D1C5]">Bloom Institute of Technology</h3>
-                    <p class="dark:text-[#81796D]">Full-Stack Web Development Program (Certificate)</p>
+                    <p class="dark:text-[#81796D]  text-sm">Full-Stack Web Development Program (Certificate)</p>
                 </div>
 
                 <div>
                     <div class="flex flex-col items-end">
                         <p class="text-lmd text-[#E5DDD1]">Remote</p>
-                        <p class="text-[#81796D]">Oct 2020</p>
+                        <p class="text-[#81796D]  text-sm">Oct 2020</p>
                     </div>
                 </div>
             </div>
@@ -203,12 +203,12 @@ new #[Layout('components.layouts.guest')] class extends Component {
             <div class="flex flex-col space-y-2">
                 <div>
                     <h3 class="text-md dark:text-[#D9D1C5]">English</h3>
-                    <p class="dark:text-[#81796D]">Native</p>
+                    <p class="dark:text-[#81796D]  text-sm">Native</p>
                 </div>
 
                 <div>
                     <h3 class="text-md dark:text-[#D9D1C5]">Russian</h3>
-                    <p class="dark:text-[#81796D]">Native</p>
+                    <p class="dark:text-[#81796D]  text-sm">Native</p>
                 </div>
             </div>
         </div>

@@ -1,4 +1,3 @@
-{{-- resources/views/components/title-divider.blade.php --}}
 @props([
     'title' => 'Divider Title'
 ])
