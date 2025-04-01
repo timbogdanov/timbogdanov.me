@@ -168,7 +168,7 @@ new #[Layout('components.layouts.guest')] class extends Component {
 
                         <p class="dark:text-[#81796D]">Real-time amusement park wait times, show schedules, and dining options</p>
                         <div class="flex mt-1">
-                            <a href="https://t.me/MaykopConnectBot" target="_blank"
+                            <a href="https://pixieping.co/" target="_blank"
                                class="flex items-center space-x-2 px-2 py-1 rounded-sm dark:bg-[#1A1813] dark:text-[#8F877B]">
                                 <span class="font-mono text-sm">Visit</span>
                                 <x-arrow class="h-4"></x-arrow>
