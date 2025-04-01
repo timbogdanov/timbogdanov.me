@@ -42,9 +42,8 @@ new #[Layout('components.layouts.guest')] class extends Component {
         <x-title-divider title="Tech Stack"/>
 
         <div>
-            <div class="flex space-x-4 sm:space-x-8 md:space-x-14 lg:space-x-20">
-
-            <div class="flex-col space-y-2">
+            <div class="flex space-x-8 sm:space-x-8 md:space-x-14 lg:space-x-20">
+                <div class="flex-col space-y-2">
                     <div class="flex text-sm">
                         <x-laravel class="h-5 mr-3"/>
                         Laravel
