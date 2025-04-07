@@ -38,53 +38,6 @@ new #[Layout('components.layouts.guest')] class extends Component {
             </div>
         </div>
 
-        <x-title-divider title="Tech Stack"/>
-
-        <div>
-            <div class="flex space-x-8 sm:space-x-8 md:space-x-14 lg:space-x-20">
-                <div class="flex-col space-y-2">
-                    <div class="flex text-sm">
-                        <x-laravel class="h-5 mr-3"/>
-                        Laravel
-                    </div>
-                    <div class="flex text-sm">
-                        <x-php class="h-5 mr-3"/>
-                        PHP
-                    </div>
-                    <div class="flex text-sm">
-                        <x-postgresql class="h-5 mr-3"/>
-                        PostgreSQL
-                    </div>
-                </div>
-
-                <div class="flex-col space-y-2">
-                    <div class="flex text-sm">
-                        <x-docker class="h-5 mr-3"/>
-                        Docker
-                    </div>
-                    <div class="flex text-sm">
-                        <x-linux class="h-5 mr-3"/>
-                        Linux
-                    </div>
-                </div>
-
-                <div class="flex-col space-y-2">
-                    <div class="flex text-sm">
-                        <x-javascript class="h-5 mr-3"/>
-                        Javascript
-                    </div>
-                    <div class="flex text-sm">
-                        <x-jquery class="h-5 mr-3"/>
-                        jQuery
-                    </div>
-                    <div class="flex text-sm">
-                        <x-vue class="h-5 mr-3"/>
-                        Vue
-                    </div>
-                </div>
-            </div>
-        </div>
-
         <x-title-divider title="Experience"/>
 
         <div>
@@ -173,6 +126,54 @@ new #[Layout('components.layouts.guest')] class extends Component {
                                 <x-arrow class="h-4"></x-arrow>
                             </a>
                         </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <x-title-divider title="Tech Stack"/>
+
+        <div>
+            <div class="flex space-x-8 sm:space-x-8 md:space-x-14 lg:space-x-20">
+                <div class="flex-col space-y-2">
+                    <div class="flex text-sm">
+                        <x-laravel class="h-5 mr-3"/>
+                        Laravel
+                    </div>
+                    <div class="flex text-sm">
+                        <x-php class="h-5 mr-3"/>
+                        PHP
+                    </div>
+                    <div class="flex text-sm">
+                        <x-postgresql class="h-5 mr-3"/>
+                        PostgreSQL
+                    </div>
+                </div>
+
+                <div class="flex-col space-y-2">
+                    <div class="flex text-sm">
+                        <x-docker class="h-5 mr-3"/>
+                        Docker
+                    </div>
+                    <div class="flex text-sm">
+                        <x-linux class="h-5 mr-3"/>
+                        Linux
+                    </div>
+                </div>
+
+                <div class="flex-col space-y-2">
+                    <div class="flex text-sm">
+                        <x-javascript class="h-5 mr-3"/>
+                        Javascript
+                    </div>
+                    <div class="flex text-sm">
+                        <x-jquery class="h-5 mr-3"/>
+                        jQuery
+                    </div>
+                    <div class="flex text-sm">
+                        <x-vue class="h-5 mr-3"/>
+                        Vue
                     </div>
                 </div>
             </div>
