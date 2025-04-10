@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
     // Our array of phrases
     const texts = [
-        "~/timbogdanov/",
+        "~/tim-bogdanov/",
     ];
 
     // Get the text container
