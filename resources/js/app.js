@@ -1,9 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
     // Our array of phrases
     const texts = [
-        "tim bogdanov",
-        "backend developer",
-        "laravel artisan",
+        "~/timbogdanov/",
     ];
 
     // Get the text container
