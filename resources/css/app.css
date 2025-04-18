@@ -103,8 +103,8 @@ select:focus[data-flux-control] {
 } */
 
 ::selection {
-    color: #121212;
-    background: #75EC21;
+    color: #fff;
+    background: rgba(237, 100, 44, 1);
 }
 
 /* Typewriter cursor */

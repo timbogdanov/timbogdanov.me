@@ -44,7 +44,10 @@ new #[Layout('components.layouts.guest')] class extends Component {
             <div class="flex-col space-y-4">
                 <div class="flex justify-between">
                     <div class="flex space-x-4">
-                        <img src="{{asset('/assets/cleverlabs.svg')}}" class="rounded-sm h-14 w-14" alt="">
+                        <div class="rounded-sm overflow-hidden border border-[#24221D] h-14 w-14 bg-[#1A1813]">
+                            <img src="{{ asset('/assets/cleverlabs.svg') }}" class="block w-full h-full" alt="">
+                        </div>
+
                         <div>
                             <h3 class="text-md dark:text-[#D9D1C5]">Software Developer</h3>
 
@@ -69,7 +72,10 @@ new #[Layout('components.layouts.guest')] class extends Component {
 
                 <div class="flex justify-between">
                     <div class="flex space-x-4">
-                        <img src="/assets/nutri.svg" class="rounded-sm h-14 w-14" alt="">
+                        <div class="rounded-sm overflow-hidden border border-[#24221D] h-14 w-14 bg-[#1A1813]">
+                            <img src="{{ asset('/assets/nutri.svg') }}" class="block w-full h-full" alt="">
+                        </div>
+
                         <div>
                             <h3 class="text-md dark:text-[#D9D1C5]">Software Developer</h3>
 
@@ -94,7 +100,10 @@ new #[Layout('components.layouts.guest')] class extends Component {
 
                 <div class="flex justify-between">
                     <div class="flex space-x-4">
-                        <img src="/assets/snap.svg" class="rounded-sm h-14 w-14" alt="">
+                        <div class="rounded-sm overflow-hidden border border-[#24221D] h-14 w-14 bg-[#1A1813]">
+                            <img src="{{ asset('/assets/snap.svg') }}" class="block w-full h-full" alt="">
+                        </div>
+
                         <div>
                             <h3 class="text-md dark:text-[#D9D1C5]">Software Developer</h3>
 
@@ -123,7 +132,10 @@ new #[Layout('components.layouts.guest')] class extends Component {
         <div>
             <div class="flex-col space-y-4">
                 <div class="flex space-x-4">
-                    <img src="/assets/konnekt.svg" class="rounded-sm h-14 w-14" alt="">
+                    <div class="rounded-sm overflow-hidden border border-[#24221D] h-14 w-14 bg-[#1A1813]">
+                        <img src="{{ asset('/assets/konnekt.svg') }}" class="block w-full h-full" alt="">
+                    </div>
+
                     <div>
                         <h3 class="text-md dark:text-[#D9D1C5]">Konnekt VPN</h3>
 
@@ -139,7 +151,9 @@ new #[Layout('components.layouts.guest')] class extends Component {
                 </div>
 
                 <div class="flex space-x-4">
-                    <img src="/assets/pixieping.svg" class="rounded-sm h-14 w-14" alt="">
+                    <div class="rounded-sm overflow-hidden border border-[#24221D] h-14 w-14 bg-[#1A1813]">
+                        <img src="{{ asset('/assets/pixieping.svg') }}" class="block w-full h-full" alt="">
+                    </div>
                     <div>
                         <h3 class="text-md dark:text-[#D9D1C5]">Pixie Ping</h3>
 
@@ -206,7 +220,7 @@ new #[Layout('components.layouts.guest')] class extends Component {
 
         <x-title-divider title="Education"/>
 
-        <div>
+        <div class="space-y-4">
             <div class="flex justify-between">
                 <div class="flex flex-col">
                     <h3 class="text-md dark:text-[#D9D1C5]">Bloom Institute of Technology</h3>
@@ -217,6 +231,19 @@ new #[Layout('components.layouts.guest')] class extends Component {
                     <div class="flex flex-col items-end">
                         <p class="text-lmd text-[#E5DDD1]">Remote</p>
                         <p class="text-[#81796D]  text-sm">Oct 2020</p>
+                    </div>
+                </div>
+            </div>
+            <div class="flex justify-between">
+                <div class="flex flex-col">
+                    <h3 class="text-md dark:text-[#D9D1C5]">Ridgefield High School</h3>
+                    <p class="dark:text-[#81796D]  text-sm">Diploma</p>
+                </div>
+
+                <div>
+                    <div class="flex flex-col items-end">
+                        <p class="text-lmd text-[#E5DDD1]">Ridgefield, WA</p>
+                        <p class="text-[#81796D]  text-sm">Sep 2010 - Jul 2014</p>
                     </div>
                 </div>
             </div>
