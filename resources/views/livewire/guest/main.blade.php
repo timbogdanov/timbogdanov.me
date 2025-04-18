@@ -25,7 +25,7 @@ new #[Layout('components.layouts.guest')] class extends Component {
     <div class="container mx-auto px-5 my-3">
         <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
             <a href="{{ route('guest.main') }}" class="flex items-center hover:text-[#81796D]">
-                <img src="/assets/logo.svg?v=2" class="rounded-full w-8 mr-2" alt="">
+                <img src="{{ asset('/assets/logo.svg') }}?v={{ env('APP_VERSION') }}" class="rounded-full w-8 mr-2" alt="">
                 <h1 id="typed-text" class="font-mono text-sm font-bold"></h1>
                 <span class="cursor"></span>
             </a>
