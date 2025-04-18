@@ -45,7 +45,7 @@ new #[Layout('components.layouts.guest')] class extends Component {
                 <div class="flex justify-between">
                     <div class="flex space-x-4">
                         <div class="rounded-sm overflow-hidden border border-[#24221D] h-14 w-14 bg-[#1A1813]">
-                            <img src="{{ asset('/assets/cleverlabs.svg') }}" class="block w-full h-full" alt="">
+                            <img src="{{ asset('/assets/cleverlabs.svg') }}?v={{ env('APP_VERSION') }}" class="block w-full h-full" alt="">
                         </div>
 
                         <div>
@@ -73,7 +73,7 @@ new #[Layout('components.layouts.guest')] class extends Component {
                 <div class="flex justify-between">
                     <div class="flex space-x-4">
                         <div class="rounded-sm overflow-hidden border border-[#24221D] h-14 w-14 bg-[#1A1813]">
-                            <img src="{{ asset('/assets/nutri.svg') }}" class="block w-full h-full" alt="">
+                            <img src="{{ asset('/assets/nutri.svg') }}?v={{ env('APP_VERSION') }}" class="block w-full h-full" alt="">
                         </div>
 
                         <div>
@@ -101,7 +101,7 @@ new #[Layout('components.layouts.guest')] class extends Component {
                 <div class="flex justify-between">
                     <div class="flex space-x-4">
                         <div class="rounded-sm overflow-hidden border border-[#24221D] h-14 w-14 bg-[#1A1813]">
-                            <img src="{{ asset('/assets/snap.svg') }}" class="block w-full h-full" alt="">
+                            <img src="{{ asset('/assets/snap.svg') }}?v={{ env('APP_VERSION') }}" class="block w-full h-full" alt="">
                         </div>
 
                         <div>
@@ -133,7 +133,7 @@ new #[Layout('components.layouts.guest')] class extends Component {
             <div class="flex-col space-y-4">
                 <div class="flex space-x-4">
                     <div class="rounded-sm overflow-hidden border border-[#24221D] h-14 w-14 bg-[#1A1813]">
-                        <img src="{{ asset('/assets/konnekt.svg') }}" class="block w-full h-full" alt="">
+                        <img src="{{ asset('/assets/konnekt.svg') }}?v={{ env('APP_VERSION') }}" class="block w-full h-full" alt="">
                     </div>
 
                     <div>
@@ -152,12 +152,12 @@ new #[Layout('components.layouts.guest')] class extends Component {
 
                 <div class="flex space-x-4">
                     <div class="rounded-sm overflow-hidden border border-[#24221D] h-14 w-14 bg-[#1A1813]">
-                        <img src="{{ asset('/assets/pixieping.svg') }}" class="block w-full h-full" alt="">
+                        <img src="{{ asset('/assets/pixieping.svg') }}?v={{ env('APP_VERSION') }}" class="block w-full h-full" alt="">
                     </div>
                     <div>
                         <h3 class="text-md dark:text-[#D9D1C5]">Pixie Ping</h3>
 
-                        <p class="dark:text-[#81796D]  text-sm">Real-time amusement park wait times, show schedules, and dining options</p>
+                        <p class="dark:text-[#81796D] text-sm">Real-time amusement park wait times, show schedules, and dining options</p>
                         <div class="flex mt-1">
                             <a href="https://pixieping.co/" target="_blank"
                                class="flex items-center space-x-2 px-2 py-1 rounded-sm bg-[#8F877B] text-[#E5DDD1] dark:bg-[#1A1813] dark:text-[#8F877B] dark:hover:bg-[#25231B] hover:bg-[#6D6559]">
