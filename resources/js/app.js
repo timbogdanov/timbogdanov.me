@@ -3,6 +3,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const texts = [
         "~/tim-bogdanov/",
         "christian †",
+        "husband to beautiful wife",
+        "father of 3 little ones"
     ];
 
     // Get the text container

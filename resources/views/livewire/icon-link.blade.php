@@ -1,7 +1,7 @@
 <a
     href="{{ $href }}"
     target="{{ $target }}"
-    class="group flex items-center p-2 rounded-md bg-[#8F877B] text-[#E5DDD1] hover:bg-[#6D6559] dark:bg-[#1A1813] dark:hover:bg-[#25231B]"
+    class="group flex items-center p-2 rounded-md bg-[#8F877B] text-[#E5DDD1] dark:bg-[#1A1813] dark:hover:bg-[#25231B] hover:bg-[#6D6559]"
 >
     @if ($icon)
         <x-dynamic-component

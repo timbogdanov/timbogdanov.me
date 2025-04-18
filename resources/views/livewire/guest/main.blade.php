@@ -51,7 +51,7 @@ new #[Layout('components.layouts.guest')] class extends Component {
                             <p class="dark:text-[#81796D] text-sm">Clever Labs</p>
                             <div class="flex mt-1">
                                 <a href="https://cleverlabs.co" target="_blank"
-                                   class="flex items-center space-x-2 px-2 py-1 rounded-sm bg-[#8F877B] text-[#E5DDD1] dark:bg-[#1A1813] dark:text-[#8F877B]">
+                                   class="flex items-center space-x-2 px-2 py-1 rounded-sm bg-[#8F877B] text-[#E5DDD1] dark:bg-[#1A1813] dark:text-[#8F877B] dark:hover:bg-[#25231B] hover:bg-[#6D6559]">
                                     <span class="font-mono text-sm">Visit</span>
                                     <x-arrow class="h-4"></x-arrow>
                                 </a>
@@ -76,7 +76,7 @@ new #[Layout('components.layouts.guest')] class extends Component {
                             <p class="dark:text-[#81796D] text-sm">Nutri Marketplace</p>
                             <div class="flex mt-1">
                                 <a href="https://nutrimarketplace.com/" target="_blank"
-                                   class="flex items-center space-x-2 px-2 py-1 rounded-sm bg-[#8F877B] text-[#E5DDD1] dark:bg-[#1A1813] dark:text-[#8F877B]">
+                                   class="flex items-center space-x-2 px-2 py-1 rounded-sm bg-[#8F877B] text-[#E5DDD1] dark:bg-[#1A1813] dark:text-[#8F877B] dark:hover:bg-[#25231B] hover:bg-[#6D6559]">
                                     <span class="font-mono text-sm">Visit</span>
                                     <x-arrow class="h-4"></x-arrow>
                                 </a>
@@ -101,7 +101,7 @@ new #[Layout('components.layouts.guest')] class extends Component {
                             <p class="dark:text-[#81796D] text-sm">SNAP</p>
                             <div class="flex mt-1">
                                 <a href="https://snapsupplements.com/" target="_blank"
-                                   class="flex items-center space-x-2 px-2 py-1 rounded-sm bg-[#8F877B] text-[#E5DDD1] dark:bg-[#1A1813] dark:text-[#8F877B]">
+                                   class="flex items-center space-x-2 px-2 py-1 rounded-sm bg-[#8F877B] text-[#E5DDD1] dark:bg-[#1A1813] dark:text-[#8F877B] dark:hover:bg-[#25231B] hover:bg-[#6D6559]">
                                     <span class="font-mono text-sm">Visit</span>
                                     <x-arrow class="h-4"></x-arrow>
                                 </a>
@@ -129,8 +129,8 @@ new #[Layout('components.layouts.guest')] class extends Component {
 
                         <p class="dark:text-[#81796D]  text-sm">Personal Virtual Private Network with over 200 users</p>
                         <div class="flex mt-1">
-                            <a href="https://t.me/MaykopConnectBot" target="_blank"
-                               class="flex items-center space-x-2 px-2 py-1 rounded-sm bg-[#8F877B] text-[#E5DDD1] dark:bg-[#1A1813] dark:text-[#8F877B]">
+                            <a href="https://t.me/konnekt_vpn_bot" target="_blank"
+                               class="flex items-center space-x-2 px-2 py-1 rounded-sm bg-[#8F877B] text-[#E5DDD1] dark:bg-[#1A1813] dark:text-[#8F877B] dark:hover:bg-[#25231B] hover:bg-[#6D6559]">
                                 <span class="font-mono text-sm">Visit</span>
                                 <x-arrow class="h-4"></x-arrow>
                             </a>
@@ -146,7 +146,7 @@ new #[Layout('components.layouts.guest')] class extends Component {
                         <p class="dark:text-[#81796D]  text-sm">Real-time amusement park wait times, show schedules, and dining options</p>
                         <div class="flex mt-1">
                             <a href="https://pixieping.co/" target="_blank"
-                               class="flex items-center space-x-2 px-2 py-1 rounded-sm bg-[#8F877B] text-[#E5DDD1] dark:bg-[#1A1813] dark:text-[#8F877B]">
+                               class="flex items-center space-x-2 px-2 py-1 rounded-sm bg-[#8F877B] text-[#E5DDD1] dark:bg-[#1A1813] dark:text-[#8F877B] dark:hover:bg-[#25231B] hover:bg-[#6D6559]">
                                 <span class="font-mono text-sm">Visit</span>
                                 <x-arrow class="h-4"></x-arrow>
                             </a>
