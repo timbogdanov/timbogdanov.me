@@ -3,7 +3,7 @@
 <head>
     @include('partials.head', ['title' => 'tim bogdanov'])
 </head>
-<body class="bg-[#FDFDFC] dark:bg-[#121212] text-[#1b1b18] dark:text-[#E5DDD1]">
+<body class="bg-[#E5DDD1] dark:bg-[#121212] text-[#1b1b18] dark:text-[#E5DDD1]">
 {{ $slot }}
 
 @fluxScripts

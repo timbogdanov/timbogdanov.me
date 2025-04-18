@@ -15,9 +15,9 @@ new #[Layout('components.layouts.guest')] class extends Component {
 }; ?>
 
 <div>
-    <div class="dark:bg-[#161616]">
+    <div class="bg-[#81796D] dark:bg-[#161616]">
         <div class="container mx-auto px-5">
-            <p class="py-2 dark:text-[#6E6E6E] font-mono text-xs">
+            <p class="py-2 text-[#E5DDD1] dark:text-[#6E6E6E] font-mono text-xs">
                 Last login: {{ $lastLogin }} on ttys00{{ $ttys }}
         </div>
     </div>
@@ -44,6 +44,31 @@ new #[Layout('components.layouts.guest')] class extends Component {
             <div class="flex-col space-y-4">
                 <div class="flex justify-between">
                     <div class="flex space-x-4">
+                        <img src="{{asset('/assets/cleverlabs.svg')}}" class="rounded-sm h-14 w-14" alt="">
+                        <div>
+                            <h3 class="text-md dark:text-[#D9D1C5]">Software Developer</h3>
+
+                            <p class="dark:text-[#81796D] text-sm">Clever Labs</p>
+                            <div class="flex mt-1">
+                                <a href="https://cleverlabs.co" target="_blank"
+                                   class="flex items-center space-x-2 px-2 py-1 rounded-sm bg-[#8F877B] text-[#E5DDD1] dark:bg-[#1A1813] dark:text-[#8F877B]">
+                                    <span class="font-mono text-sm">Visit</span>
+                                    <x-arrow class="h-4"></x-arrow>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="flex flex-col items-end">
+                            <p class="text-md text-[#E5DDD1]">Magnolia, TX</p>
+                            <p class="text-[#81796D] text-sm">Mar 2024 - Mar 2025</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex justify-between">
+                    <div class="flex space-x-4">
                         <img src="/assets/nutri.svg" class="rounded-sm h-14 w-14" alt="">
                         <div>
                             <h3 class="text-md dark:text-[#D9D1C5]">Software Developer</h3>
@@ -51,7 +76,7 @@ new #[Layout('components.layouts.guest')] class extends Component {
                             <p class="dark:text-[#81796D] text-sm">Nutri Marketplace</p>
                             <div class="flex mt-1">
                                 <a href="https://nutrimarketplace.com/" target="_blank"
-                                   class="flex items-center space-x-2 px-2 py-1 rounded-sm dark:bg-[#1A1813] dark:text-[#8F877B]">
+                                   class="flex items-center space-x-2 px-2 py-1 rounded-sm bg-[#8F877B] text-[#E5DDD1] dark:bg-[#1A1813] dark:text-[#8F877B]">
                                     <span class="font-mono text-sm">Visit</span>
                                     <x-arrow class="h-4"></x-arrow>
                                 </a>
@@ -76,7 +101,7 @@ new #[Layout('components.layouts.guest')] class extends Component {
                             <p class="dark:text-[#81796D] text-sm">SNAP</p>
                             <div class="flex mt-1">
                                 <a href="https://snapsupplements.com/" target="_blank"
-                                   class="flex items-center space-x-2 px-2 py-1 rounded-sm dark:bg-[#1A1813] dark:text-[#8F877B]">
+                                   class="flex items-center space-x-2 px-2 py-1 rounded-sm bg-[#8F877B] text-[#E5DDD1] dark:bg-[#1A1813] dark:text-[#8F877B]">
                                     <span class="font-mono text-sm">Visit</span>
                                     <x-arrow class="h-4"></x-arrow>
                                 </a>
@@ -105,7 +130,7 @@ new #[Layout('components.layouts.guest')] class extends Component {
                         <p class="dark:text-[#81796D]  text-sm">Personal Virtual Private Network with over 200 users</p>
                         <div class="flex mt-1">
                             <a href="https://t.me/MaykopConnectBot" target="_blank"
-                               class="flex items-center space-x-2 px-2 py-1 rounded-sm dark:bg-[#1A1813] dark:text-[#8F877B]">
+                               class="flex items-center space-x-2 px-2 py-1 rounded-sm bg-[#8F877B] text-[#E5DDD1] dark:bg-[#1A1813] dark:text-[#8F877B]">
                                 <span class="font-mono text-sm">Visit</span>
                                 <x-arrow class="h-4"></x-arrow>
                             </a>
@@ -121,7 +146,7 @@ new #[Layout('components.layouts.guest')] class extends Component {
                         <p class="dark:text-[#81796D]  text-sm">Real-time amusement park wait times, show schedules, and dining options</p>
                         <div class="flex mt-1">
                             <a href="https://pixieping.co/" target="_blank"
-                               class="flex items-center space-x-2 px-2 py-1 rounded-sm dark:bg-[#1A1813] dark:text-[#8F877B]">
+                               class="flex items-center space-x-2 px-2 py-1 rounded-sm bg-[#8F877B] text-[#E5DDD1] dark:bg-[#1A1813] dark:text-[#8F877B]">
                                 <span class="font-mono text-sm">Visit</span>
                                 <x-arrow class="h-4"></x-arrow>
                             </a>
