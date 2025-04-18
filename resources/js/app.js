@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Our array of phrases
     const texts = [
         "~/tim-bogdanov/",
-        "christian †",
+        "christian ✝",
         "husband to beautiful wife",
         "father of 3 little ones"
     ];

@@ -98,7 +98,7 @@ new #[Layout('components.layouts.guest')] class extends Component {
                         <div>
                             <h3 class="text-md dark:text-[#D9D1C5]">Software Developer</h3>
 
-                            <p class="dark:text-[#81796D] text-sm">SNAP</p>
+                            <p class="dark:text-[#81796D] text-sm">SNAP Supplements</p>
                             <div class="flex mt-1">
                                 <a href="https://snapsupplements.com/" target="_blank"
                                    class="flex items-center space-x-2 px-2 py-1 rounded-sm bg-[#8F877B] text-[#E5DDD1] dark:bg-[#1A1813] dark:text-[#8F877B] dark:hover:bg-[#25231B] hover:bg-[#6D6559]">
