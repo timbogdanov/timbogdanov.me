@@ -243,7 +243,7 @@ new #[Layout('components.layouts.guest')] class extends Component {
                 <div>
                     <div class="flex flex-col items-end">
                         <p class="text-lmd text-[#776F63]">Ridgefield, WA</p>
-                        <p class="text-[#81796D]  text-sm">Sep 2010 - Jul 2014</p>
+                        <p class="text-[#81796D]  text-sm">Mar 2016</p>
                     </div>
                 </div>
             </div>
