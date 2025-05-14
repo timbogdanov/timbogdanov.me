@@ -64,7 +64,7 @@ new #[Layout('components.layouts.guest')] class extends Component {
 
                     <div>
                         <div class="flex flex-col items-end">
-                            <p class="text-md text-[#E5DDD1]">Magnolia, TX</p>
+                            <p class="text-md text-[#776F63]">Magnolia, TX</p>
                             <p class="text-[#81796D] text-sm">Mar 2024 - Mar 2025</p>
                         </div>
                     </div>
@@ -92,7 +92,7 @@ new #[Layout('components.layouts.guest')] class extends Component {
 
                     <div>
                         <div class="flex flex-col items-end">
-                            <p class="text-md text-[#E5DDD1]">Vancouver, WA</p>
+                            <p class="text-md text-[#776F63]">Vancouver, WA</p>
                             <p class="text-[#81796D] text-sm">Dec 2021 - Jan 2024</p>
                         </div>
                     </div>
@@ -120,7 +120,7 @@ new #[Layout('components.layouts.guest')] class extends Component {
 
                     <div>
                         <div class="flex flex-col items-end">
-                            <p class="text-lmd text-[#E5DDD1]">Vancouver, WA</p>
+                            <p class="text-lmd text-[#776F63]">Vancouver, WA</p>
                             <p class="text-[#81796D] text-sm">Jun 2021 - Jan 2024</p>
                         </div>
                     </div>
@@ -229,20 +229,20 @@ new #[Layout('components.layouts.guest')] class extends Component {
 
                 <div>
                     <div class="flex flex-col items-end">
-                        <p class="text-lmd text-[#E5DDD1]">Remote</p>
-                        <p class="text-[#81796D]  text-sm">Oct 2020</p>
+                        <p class="text-lmd text-[#776F63]">Remote</p>
+                        <p class="text-[#81796D] text-sm">Oct 2020</p>
                     </div>
                 </div>
             </div>
             <div class="flex justify-between">
                 <div class="flex flex-col">
-                    <h3 class="text-md dark:text-[#D9D1C5]">Ridgefield High School</h3>
-                    <p class="dark:text-[#81796D]  text-sm">Diploma</p>
+                    <h3 class="text-md dark:text-[#D9D1C5]">Continental Academy</h3>
+                    <p class="dark:text-[#81796D] text-sm">High School Proficiency Diploma</p>
                 </div>
 
                 <div>
                     <div class="flex flex-col items-end">
-                        <p class="text-lmd text-[#E5DDD1]">Ridgefield, WA</p>
+                        <p class="text-lmd text-[#776F63]">Ridgefield, WA</p>
                         <p class="text-[#81796D]  text-sm">Sep 2010 - Jul 2014</p>
                     </div>
                 </div>
