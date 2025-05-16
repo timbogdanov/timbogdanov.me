@@ -133,6 +133,25 @@ new #[Layout('components.layouts.guest')] class extends Component {
             <div class="flex-col space-y-4">
                 <div class="flex space-x-4">
                     <div class="rounded-sm overflow-hidden border border-[#24221D] h-14 w-14 bg-[#1A1813]">
+                        <img src="{{ asset('/assets/speed_bump.png') }}?v={{ env('APP_VERSION') }}" class="block w-full h-full" alt="">
+                    </div>
+
+                    <div>
+                        <h3 class="text-md dark:text-[#D9D1C5]">Speed Bump</h3>
+
+                        <p class="dark:text-[#81796D] text-sm">A Telegram bot that helps you track spending by extracting totals and categories from receipt photos and building a simple budget.</p>
+                        <div class="flex mt-1">
+                            <a href="https://t.me/speed_bump_bot" target="_blank"
+                               class="flex items-center space-x-2 px-2 py-1 rounded-sm bg-[#8F877B] text-[#E5DDD1] dark:bg-[#1A1813] dark:text-[#8F877B] dark:hover:bg-[#25231B] hover:bg-[#6D6559]">
+                                <span class="font-mono text-sm">Visit</span>
+                                <x-arrow class="h-4"></x-arrow>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex space-x-4">
+                    <div class="rounded-sm overflow-hidden border border-[#24221D] h-14 w-14 bg-[#1A1813]">
                         <img src="{{ asset('/assets/konnekt.svg') }}?v={{ env('APP_VERSION') }}" class="block w-full h-full" alt="">
                     </div>
 
